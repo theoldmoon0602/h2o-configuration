@@ -20,6 +20,7 @@ hosts:
       "/":
         file.dir: /var/www/html
       "/bin":
+        file.dir: /var/www/html/bin
         file.dirlisting: ON
 
 user: www-data
