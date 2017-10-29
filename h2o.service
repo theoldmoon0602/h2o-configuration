@@ -1,0 +1,9 @@
+[Unit]
+Description=H2O HTTP Server
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/h2o -m daemon -c /etc/h2o/h2o.conf.yml
+
+[Install]
+WantedBy=multi-user.target
